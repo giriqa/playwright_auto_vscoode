@@ -33,6 +33,7 @@ test.describe('API Tests', () => {
             expect(responseBody).toHaveProperty('body', 'bar');
             expect(responseBody).toHaveProperty('userId', 1);
             expect(responseBody).toHaveProperty('id');
+            expect(responseBody).toHaveProperty('phone');
             
             // Log detailed response information
             console.log('\n=== Response Details ===');
